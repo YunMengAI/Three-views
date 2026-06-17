@@ -2,14 +2,16 @@
 
 这是一个 ComfyUI 人物角色卡提示词插件。当前阶段只输出提示词，用来测试角色卡相关提示词质量。
 
-> 插件目录名称：`YM-角色卡`
+节点在 ComfyUI 里显示为：`角色卡 提示词生成器`
+
+分类显示为：`YM-角色卡/提示词`
 
 ## 安装方式
 
-下载本仓库后，把仓库里的 `YM-角色卡` 文件夹放到：
+把这个仓库下载或克隆到 ComfyUI 的 `custom_nodes` 目录里即可：
 
 ```text
-ComfyUI/custom_nodes/YM-角色卡
+ComfyUI/custom_nodes/Three-views
 ```
 
 然后重启 ComfyUI，在节点搜索里搜索：
@@ -20,8 +22,6 @@ YM-角色卡
 ```
 
 ## 功能
-
-节点名称：`角色卡 提示词生成器`
 
 支持生成 4 类提示词：
 
@@ -45,7 +45,7 @@ YM-角色卡
 系统提示词单独放在：
 
 ```text
-YM-角色卡/prompt_templates/
+prompt_templates/
 ```
 
 需要调整提示词规则时，直接修改对应 `.txt` 文件即可。
